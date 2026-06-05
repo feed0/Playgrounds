@@ -1,3 +1,11 @@
+//
+//  Asynchronous Sequences
+//  Concurrency
+//  https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/#Asynchronous-Sequences
+//
+//  Created by feed0 on 2026/05/29
+//
+
 import Foundation
 
 // MARK: - AsyncSequence

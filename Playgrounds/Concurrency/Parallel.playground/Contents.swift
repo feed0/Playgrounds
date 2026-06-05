@@ -1,3 +1,11 @@
+//
+//  Calling Asynchronous Functions in Parallel
+//  Concurrency
+//  https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/#Calling-Asynchronous-Functions-in-Parallel
+//
+//  Created by feed0 on 2026/06/02
+//
+
 import Foundation
 
 print()
@@ -25,7 +33,7 @@ Task {
     print(parallelArray.debugDescription)
 }
 
-// MARK: - Propeties and functions
+// MARK: - Properties and functions
 
 let photoNames = [
     "a", "b", "c", /// serial task

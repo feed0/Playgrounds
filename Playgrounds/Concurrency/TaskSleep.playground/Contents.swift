@@ -1,3 +1,10 @@
+//
+//  Task sleep
+//  Concurrency
+//  https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/#Defining-and-Calling-Asynchronous-Functions
+//
+//  Created by feed0 on 2026/05/28
+//
 
 // MARK: - Definition
 
