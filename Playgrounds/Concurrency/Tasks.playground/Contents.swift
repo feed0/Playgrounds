@@ -11,14 +11,16 @@ import Foundation
 Task {
     await withTaskGroup(of: String.self) { group in
         
-        /// Child tasks
+        // MARK: Child tasks
+        
         for name in photoNames {
             group.addTask {
                 return await downloadPhoto(named: name)
             }
         }
         
-        /// Async group
+        // MARK: Async group
+        
         for await photo in group {
             print(Date.now.formatted(date: .omitted, time: .standard), terminator: " . ") /// print time for each task return
             print(photo)
